@@ -1,0 +1,10 @@
+1) On retrouve les classes EnseignantExterieur et EnseignantFac qui héritent de Enseignant.
+nom(), heureComp() et retribution() sont définies dans Enseignant (car elle sont utilisées par tous enseignants).
+nom() et retribution() sont les même pour chaque classe enfant.
+heureComp() est override dans EnseignantExterieur alors que EnseignantFac utilisera la méthode parente.
+
+3) Comme pour EnseignantExterieur, on override la méthode heureComp() (voir code)
+
+4) Oui, la classe Etudiant n'a pas de nombre total d'heures d'enseignement et Etudiant n'est pas un enfant de la classe
+Enseignant. Il ne possède donc pas les méthodes heureComp() et retribution() ainsi que toutes les caractéristiques d'un Objet de type Enseignant.
+Il s'agit d'un objet à part entière.
